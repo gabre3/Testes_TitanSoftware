@@ -1,0 +1,11 @@
+CREATE TABLE Produtos  (
+    IDPROD int PRIMARY KEY,
+    NOME varchar(255),
+    COR varchar(255)
+);
+
+CREATE TABLE preco  (
+    IDPRECO int PRIMARY KEY,
+    PRECO  FLOAT(9,2),
+    COR varchar(255)
+);
